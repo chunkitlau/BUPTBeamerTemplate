@@ -1,0 +1,68 @@
+% Copyright 2019 Clara Eleonore Pavillet
+
+% Author: Clara Eleonore Pavillet (original author), Leonard Quentin Marcq (modified for BUPT), 赵宗义 (参与了修改)
+% Description: This is an unofficial BUPT University Beamer Template I made from scratch. Feel free to use it, modify it, share it.
+% Version: 1.1
+
+
+\documentclass{beamer}
+\usepackage{ctex}
+\usepackage{fontspec}
+\input{Theme/Packages.tex}
+\usetheme{BUPT}
+
+%%%<<<---
+\newcommand{\system}{HashFlow}
+\newcommand{\variable}{\mathrm}
+\newcommand{\field}{\mathsf}
+%%%--->>>
+
+\title{使用{\system}对计算机网络进行测量}
+\titlegraphic{\includegraphics[width=2cm]{Theme/Logos/BUPT_badge.png}}
+\author{Chunkit Lau}
+\institute{北京邮电大学}
+\date{} %\today
+
+\begin{document}
+
+{\setbeamertemplate{footline}{} 
+\frame{\titlepage}}
+
+
+
+\begin{frame}{{\system}的总体架构}
+\textbf{控制平面}
+\begin{enumerate}
+\item 流记录项的分类和聚合
+\item 流记录项的存储和分析
+\end{enumerate}
+\textbf{数据平面}
+\begin{enumerate}
+\item 哈希冲突解决策略
+\item 大流检测机制
+\item 不活跃流退出机制
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{数据平面}
+\begin{enumerate}
+\item 数据平面包含了两个哈希表, 分别是主表 (Main Table) 和辅表 (Ancillary Table).
+\item 主表中每个哈希桶包含两个域: $\field{fieldID}$和$\field{count}$
+\item 辅表中每个哈希桶也包含两个域: $\field{digest}$和$\field{count}$
+\end{enumerate}
+\begin{figure}
+	\centering
+\end{figure}
+
+\end{frame}
+
+  
+\begin{frame}{}
+\begin{center}
+    \textbf{谢谢!}
+\end{center}
+\end{frame}
+
+
+\end{document}
+

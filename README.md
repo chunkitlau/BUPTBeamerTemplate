@@ -1,4 +1,4 @@
-# BUPTBeamerTemplate
+# BUPTBeamerTemplateChinese
 ## Description
 This is an unofficial Beijing University of Posts and Telecommunications(BUPT) Beamer Template.
 
