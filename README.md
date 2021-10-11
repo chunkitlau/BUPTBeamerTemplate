@@ -2,6 +2,8 @@
 ## Description
 This is an unofficial Beijing University of Posts and Telecommunications(BUPT) Beamer Template ([Chinese version 中文版](https://github.com/chunkitlau/BUPTBeamerTemplate/tree/master-chinese)).
 
+[Overleaf link](https://www.overleaf.com/read/frfhyysfhqtq)
+
 original author: Clara Eleonore Pavillet.
 
 Chunkit Lau modified for BUPT.
@@ -9,6 +11,8 @@ Chunkit Lau modified for BUPT.
 ## 描述
 
 这是一个非官方的北京邮电大学(BUPT)投影模板([中文版 Chinese version](https://github.com/chunkitlau/BUPTBeamerTemplate/tree/master-chinese))。
+
+[Overleaf链接](https://www.overleaf.com/read/frfhyysfhqtq)
 
 原作者：Clara Eleonore Pavillet。
 
